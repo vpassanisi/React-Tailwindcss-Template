@@ -11,5 +11,5 @@ Tailwind is run as a Postcss plugin. This makes it easier to add other plugins l
 In this case purgecss is very important because I have changed the default tailwind color palette to match
 the material design color palette. You can modify the color palette in the maerialPalette.js file.
 Also, I inlcuded a package called tailwindcss-bg-alpha which generates background color classes with alpha values.
-By default the only color to have alpha values is black, white, and deep-purple. You can add any color you want to generate alpha colors
+By default the only colors to have alpha values is black, white, and deep-purple. You can add any color you want to generate alpha colors
 for in the tailwind.config.js file. In the alphaColors key you need to format the colors like "blue-gray.500", "amber.300", "light-blue.700".
